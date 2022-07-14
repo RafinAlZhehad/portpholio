@@ -3,7 +3,10 @@ body{
     margin: 0%;
 }
 h1{
-    font-size: 50px;
+    font-size: 40px;
+}
+h2{
+    font-size: 30px;
 }
 .name{
     color:orange;
@@ -37,4 +40,17 @@ h1{
     background-repeat: no-repeat;
     background-position: right;
 
+}
+.shadow{
+    width: 40%;
+    box-shadow: 10px 10px 40px gray;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    border-radius: 5%;
+}
+.experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
 }
