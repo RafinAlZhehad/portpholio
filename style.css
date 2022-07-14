@@ -9,14 +9,16 @@ h1{
     color:orange;
 }
 section{
-    display: flex;
+    display: flex; 
+    margin-bottom: 150px;
+
 }
 .half-width{
     width: 50%;
     padding-left: 5%;
 }
 .half-width img{
-    width: 80%;
+    width: 60%;
 }
 .button{
     text-decoration: none;
@@ -29,4 +31,10 @@ section{
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.dream{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
 }
